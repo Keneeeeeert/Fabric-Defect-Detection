@@ -1,0 +1,51 @@
+__pycache__/
+.venv/
+*.pyc
+*.pyo
+*.pyd
+.env
+
+# Dataset and Models (large files)
+dataset/
+dataset_obb/
+dataset.zip
+dataset_obb.zip
+*.pt
+*.onnx
+
+# Ignore all ONNX and PT except if we want to keep best ones, but usually github limits to 100MB.
+# We will exclude large models.
+
+# Temporary and log files
+runs/
+*.log
+*.yml
+*.png
+*.jpg
+*.jpeg
+!README_images/
+
+# Android build and local properties
+android_app/.gradle/
+android_app/build/
+android_app/app/build/
+android_app/local.properties
+android_app/.idea/
+
+# Editor and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Project local backup docs (we will only upload the final docx if needed, but best to ignore docx in repo if it's just code)
+# We will keep the final report
+*.pdf
+*.pptx
+*.docx
+Release/
+chat5/
+fix_*.py
+insert_*.py
+draw_*.py
+update_*.py

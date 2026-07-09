@@ -1,0 +1,2 @@
+-keep class com.fabric.detect.** { *; }
+-keep class ai.onnxruntime.** { *; }

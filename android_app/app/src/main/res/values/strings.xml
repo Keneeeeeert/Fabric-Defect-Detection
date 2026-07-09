@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Fabric Detect</string>
+    <string name="switch_camera">Switch Camera</string>
+</resources>
