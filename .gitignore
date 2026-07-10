@@ -49,3 +49,26 @@ fix_*.py
 insert_*.py
 draw_*.py
 update_*.py
+
+# Packaging & Build
+build/
+dist/
+*.spec
+
+# UI Backups
+TestApp/
+CsharpUI/
+gzz-20260710/
+
+# Temp images
+output_*.jpg
+temp_*.png
+
+# Tests
+!color_tests/
+!label_tests/
+!color_tests/**/*.bmp
+!color_tests/**/*.jpg
+!color_tests/**/*.jpeg
+!label_tests/**/*.png
+*.pth
